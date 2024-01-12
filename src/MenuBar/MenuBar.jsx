@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./MenuBar.css";
 import MenuOption from "./MenuOption";
-import Cvv from '../SideBar/DownloadCV/Cvv.pdf'
+import Cvv from '../SideBar/DownloadCV/NitinKushwaha.pdf'
 
 export default function MenuBar({contactBtn,projectBtn}) {
 
@@ -30,7 +30,7 @@ export default function MenuBar({contactBtn,projectBtn}) {
       </div>
       <div className="menubar-items" style={{display:menuBarBtn? "block":"none"}}>
             <MenuOption contactBtn={contactBtn} item={"Contact Me"}/>
-            <MenuOption item={<a href={Cvv}  download={"Nitin's Cvv"}>Download CV <i className="fa-solid fa-download"></i></a>}/>
+            <MenuOption item={<a href={Cvv}  download={"Nitin's resume"}>Download CV <i className="fa-solid fa-download"></i></a>}/>
       </div>
     </div>
   );
