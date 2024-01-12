@@ -1,7 +1,7 @@
 import "./ScrollBox.css";
 import Info from "../Info/Info";
-import Progress from "../RegionalLang/progress";
-import SkillsBox from "../HardSkills/SkillsBox";
+import Progress from "../RegionalLang/Progress.jsx";
+import SkillsBox from "../HardSkills/SkillsBox.jsx";
 import KnowledgeList from "../KnowledgeList/KnowlegeList";
 import DownloadCv from "../DownloadCV/DownloadBtn";
 
