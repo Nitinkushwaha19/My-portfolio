@@ -10,7 +10,7 @@ export default function LinearWithValueLabel() {
     useEffect( () => {
     setInterval(() => {
         setProgress((prevProgress) => (prevProgress >= 100 ? 100 : prevProgress + 1));
-    }, 30);
+    }, 20);
     
   }, []);
 
