@@ -3,7 +3,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 
 export default function TypingBox() {
   const [text] = useTypewriter({
-    words: ["Aspiring Software Engineer", "Full Stack Developer"],
+    words: ["Software Engineer", "Full Stack Developer"],
     loop: {},
     typeSpeed: 90,
     deleteSpeed: 80,
