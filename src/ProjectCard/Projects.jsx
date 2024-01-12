@@ -7,6 +7,11 @@ export default function Projects() {
       <h5>My Projects</h5>
       <div className="project-items">
         <ProjectCard
+          Title="Portfolio Website"
+          Description="Discover my responsive portfolio website, crafted with React.js, HTML, CSS, JavaScript, and MUI icons, showcasing my work in a dynamic, user-friendly interface."
+          projectLink="https://github.com/Nitinkushwaha19/My-portfolio"
+        />
+        <ProjectCard
           Title="NewsApp Website"
           Description="A versatile ReactJS and Bootstrap application, featuring light/dark modes and sections for technology, science, and general news...."
           projectLink="https://github.com/Nitinkushwaha19/NewApp"
