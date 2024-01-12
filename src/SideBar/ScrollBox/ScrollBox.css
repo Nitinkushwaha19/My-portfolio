@@ -1,0 +1,21 @@
+.scrollBar {
+    width: 290px;
+    background-color: #22222ec9;
+    padding-top: 240px;
+    padding-bottom: 3.5rem;
+
+}
+
+.ul-content {
+    padding:0 20px 20px;
+   
+    
+}
+
+.divider {
+    background: #646466;
+    width: 100%;
+    height: 1px ;
+    opacity: 0.3;
+    margin: 1rem 0 1rem 0;
+}

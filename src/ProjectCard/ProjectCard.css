@@ -1,0 +1,38 @@
+.view-code {
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: white;
+    opacity: 0.7;
+    margin-left: 0.5rem;
+}
+
+.view-code:hover {
+    color:#ffc107;
+    opacity: 1;
+}
+
+.cards{
+    width: 17.3rem;
+    margin: 0.75rem 0.75rem 0.75rem 0 ;
+}
+
+
+@media (max-width: 1315px) {
+    .cards{
+        width: 31.5%;
+    }
+    
+  }
+@media (max-width: 1102px) {
+    .cards{
+        width: 48%;
+    }
+    
+  }
+@media (max-width: 676px) {
+    .cards{
+        width: 46%;
+    }
+    
+  }

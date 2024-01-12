@@ -1,0 +1,15 @@
+.footer {
+    padding: 1rem ;
+    background-color:rgba(37, 37, 50, 0.98);
+    color: #8c8c8e;
+    /* margin: 0 5rem 0 2rem; */
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.footer i {
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #8c8c8e;
+}
+

@@ -1,0 +1,20 @@
+.download a  {
+    text-decoration: none;
+    color: #8c8c8e;
+    font-size: 0.75rem;
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.download i {
+    font-size: 0.9rem;
+    padding-left: 0.75rem;
+    color: #8c8c8e;
+}
+
+.download a:hover , i:hover {
+    cursor: pointer;
+    opacity: 1;
+    color:#ffc107;
+    transition: linear 1s;
+}

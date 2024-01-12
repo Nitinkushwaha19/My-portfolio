@@ -1,0 +1,21 @@
+.hard-skill-lang {
+    margin-top: 1rem;
+}
+
+.lang-name {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.3rem;
+    align-items: center;
+}
+
+.lang-name span {
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.lang {
+    color: #fff;
+    font-size: 0.75rem;
+}
+

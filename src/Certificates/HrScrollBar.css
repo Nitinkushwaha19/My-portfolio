@@ -1,0 +1,29 @@
+.certificates-bar {
+  padding: 1.5rem 0 5rem 1rem;
+  /* overflow-x: hidden; */
+  color: #fff;
+  width: 90%;
+}
+
+@media (max-width: 1020px) {
+  .certificates-bar{
+      width: 95%;
+  }
+}
+
+.Certificate-heading {
+  color: #fff;
+  margin: 2rem 0 0 0 ;
+  font-size: 1.5rem;
+  font-weight: 500;
+
+}
+
+.slick-slide > div {
+  margin-right:0.8rem;
+}
+
+.slick-active button::after {
+  color: "yellow";
+}
+

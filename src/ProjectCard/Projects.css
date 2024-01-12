@@ -1,0 +1,47 @@
+.project-collection {
+  /* background-color: #fff; */
+  padding-top: 2rem;
+}
+
+.project-collection h5 {
+  color: #ffffffd3;
+  font-weight: 700;
+  padding:  1rem 0 0.95rem 0;
+}
+
+.project-items {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+
+
+@media (max-width: 520px) {
+  .project-collection {
+    padding: 0.75rem 0.5rem;
+  }
+}
+
+@media (max-width: 685px) {
+  .project-items {
+    display: block;
+    padding: 0 0.25rem;
+    margin: 0;
+  }
+  .cards {
+    width: 95%;
+    margin-bottom: 1rem;
+  }
+  .project-collection h5  {
+    padding-top: 0;
+    padding-left: 0.25rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .cards {
+    width: 100%;
+  }
+}

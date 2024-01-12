@@ -1,0 +1,16 @@
+.skill-art {
+    margin: 0;
+    padding: 0;
+}
+
+.skill-art li {
+    list-style-type: none;
+    color:#8c8c8e;
+    font-size: 0.9rem;
+    
+}
+
+.skill-art i{
+    color:#ffc107;
+    padding-right: 0.25rem;
+}

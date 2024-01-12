@@ -1,0 +1,32 @@
+.contact {
+    padding-right: 1rem ;
+    color: #fff;
+}
+
+.contact-form-box h3 {
+    margin: 0 0 1rem;
+
+}
+
+.contact-details {
+    padding: 1rem 0 1rem 1rem;
+}
+
+.contact-cards {
+    display: flex;
+    overflow: auto;
+   /* flex-wrap: wrap; */
+}
+
+@media only screen and  (max-width: 685px) {
+    .contact-cards {
+        display: block;
+    }
+}
+
+.contact-details h3 {
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+

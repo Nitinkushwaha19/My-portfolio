@@ -1,0 +1,73 @@
+.MainBox {
+    /* width: 100%; */
+    padding: 1rem ;
+    background-color: #191923;
+    display: flex;
+    overflow: hidden ;
+    
+  }
+
+@media only screen and  (max-width: 1046px) {
+    .MainBox {
+        display: block;
+    }
+}
+
+
+  
+  .component {
+    display: flex;
+    background-color: rgba(37, 37, 48, 0.433);
+    width: 100%;
+    height: 95vh;
+    overflow: hidden;
+    z-index: 3;
+    
+  }
+
+  .sideBar-content {
+    width: 290px;
+  }
+  
+  .Info-box {
+    flex: 1;
+    overflow-y: auto;
+    transition: all ease-in 1s;
+    padding:0 1rem 0 2rem;
+  }
+
+.Info-box {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.Info-box::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+@media only screen and  (max-width: 1046px) {
+  .sideBar-content{
+    /* left: 402% ; */
+    /* display: none; */
+    position: absolute;
+    z-index: 2;
+    left: -290px;
+    transition: linear 1s;
+  }
+  .MainBox{
+    padding: 0;     
+  }
+  .component{
+    height: 90vh;
+    background-color: #20202d71;
+    width: 100%;
+  }
+  .MenuBar-container{
+    display: none;
+  }
+}
+
+@media only screen and  (max-width: 520px) {
+  .Info-box {
+    padding: 0.5rem;
+  }
+}

@@ -1,0 +1,17 @@
+.sideContainer {
+    background-color: rgba(50, 50, 65, 0.88);
+    width: 290px;
+    height: 94vh;
+    overflow-y: auto;
+    position: absolute;
+    
+}
+
+
+.sideContainer {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.sideContainer::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}

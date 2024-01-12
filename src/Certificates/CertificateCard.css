@@ -1,0 +1,45 @@
+.card-collection {
+    width: 90%;
+}
+
+.certificate-card {
+    background-color: rgba(37, 37, 50, 0.838);
+    width: 100%;
+    padding: 0.5rem 1rem 0.85rem  1rem  ;
+    display: flex;
+    color: #ffffffd1;;
+    flex-wrap: nowrap;
+}
+
+.card-info {
+    flex: 1;
+    height: 100%;
+    padding: 1rem;
+}
+
+.card-info h5 {  
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+}
+
+
+
+.card-info p {
+    opacity: 0.7;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.card-img {
+    width: 35%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+#certificate-img {
+    margin-top: 0.5rem;
+    width: 100%;
+    opacity: 0.6;
+}
+

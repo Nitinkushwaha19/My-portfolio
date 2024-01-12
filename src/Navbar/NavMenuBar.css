@@ -1,0 +1,30 @@
+.nav-menu-bar {
+    width: 240px;
+    height: 100vh;
+    display: none;
+    background: linear-gradient( 159deg, rgb(39, 39, 52) 0%, rgb(35, 35, 45) 100% );
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+@media only screen and  (max-width: 620px) {
+    .nav-menu-bar {
+        display: block;
+       
+
+    }
+}
+
+.nav-menu-btn {
+    background: linear-gradient(159deg, #2d2d3ada 0%, #2b2b35cb 100%);
+    padding: 1.5rem 0 ;
+    text-align: left;
+}
+
+.nav-menu-btn i {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
