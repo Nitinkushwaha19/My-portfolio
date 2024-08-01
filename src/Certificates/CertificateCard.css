@@ -4,7 +4,7 @@
 
 .certificate-card {
     background-color: rgba(37, 37, 50, 0.838);
-    width: 100%;
+    /* width: 100%; */
     padding: 0.5rem 1rem 0.85rem  1rem  ;
     display: flex;
     color: #ffffffd1;;
@@ -13,8 +13,8 @@
 
 .card-info {
     flex: 1;
-    height: 100%;
-    padding: 1rem;
+    height: 101px;
+    padding: 0.5rem;
 }
 
 .card-info h5 {  

@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import webDevImage from '../assets/webDevelopment.png'
 import cImage from '../assets/C.jpg';
 import cppImage from '../assets/Cpp.jpg';
+import javaImage from '../assets/java.png';
 
 export default function HrScrollBar()  {
 
@@ -53,9 +54,9 @@ export default function HrScrollBar()  {
       <div className="slider" >
       <Slider {...settings}>
         <CertificateCard courseName={"Full Stack Web Development"} imgLink={webDevImage} />
+        <CertificateCard courseName="Java Dsa" imgLink={javaImage} />
         <CertificateCard courseName="CPP Programming" imgLink={cImage}/>
         <CertificateCard courseName="C Programming" imgLink={cppImage} />
-        <CertificateCard  />
       </Slider>
       </div>
     </div>
