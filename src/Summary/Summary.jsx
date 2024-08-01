@@ -14,7 +14,7 @@ export default function Summary({ showSummary , summaryBtn }) {
       </div>
       <div className="container summary-container offset-1 ">
         <p className="summary-section-intro">
-        Hello! I'm Nitin Kushwaha, a 1st-year Master of computer application student at Shri Ramdeobaba College of Engineering and Management.  I'm passionate about web development and have honed my skills as a MERN stack developer.
+        Hello! I'm Nitin Kushwaha, a 1st-year Master of computer application student at Shri Ramdeobaba College of Engineering and Management. I'm passionate about web development and have honed my skills as a MERN stack developer.
         </p>
         <p className="summary-sectionn-tool-skills">
           - My technical skills include:
