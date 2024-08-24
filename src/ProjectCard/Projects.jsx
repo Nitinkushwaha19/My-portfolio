@@ -1,5 +1,8 @@
 import ProjectCard from "./ProjectCard.jsx";
 import "./Projects.css";
+import portfolio from '../assets/portfolio.png'
+import newsapp from '../assets/newsapp.png'
+import HavenHub from '../assets/Havenhub.png'
 
 export default function Projects() {
   return (
@@ -7,24 +10,32 @@ export default function Projects() {
       <h5>My Projects</h5>
       <div className="project-items">
         <ProjectCard
-          Title="Portfolio Website"
-          Description="Discover my responsive portfolio website, crafted with React.js, HTML, CSS, JavaScript, and MUI icons, showcasing my work in a dynamic, user-friendly interface."
-          projectLink="https://github.com/Nitinkushwaha19/My-portfolio"
+          Title="HavenHub"
+          Description="HavenHub is a full-stack rental PG platform where users can explore PG options, check prices, and connect with owners."
+          useTech="EJS, Node.js, Express.js, MongoDB, Bootstrap and Nodemailer"
+          gitHubLink="https://github.com/Nitinkushwaha19/Rental-home"
+          projectLink="https://rental-home-mm4m.onrender.com/"
+          projectImage={HavenHub}
         />
         <ProjectCard
           Title="NewsApp Website"
-          Description="A versatile ReactJS and Bootstrap application, featuring light/dark modes and sections for technology, science, and general news...."
-          projectLink="https://github.com/Nitinkushwaha19/NewApp"
+          Description="NewApp is a user-friendly news platform providing updates across various fields, featuring both dark and light modes for enhanced readability..."
+          useTech="React js, MUI, bootstrap"
+          gitHubLink="https://github.com/Nitinkushwaha19/NewApp"
+          projectImage={newsapp}
         />
         <ProjectCard
-          Title="Airbnb Clone"
-          Description="Airbnb clone: A full-stack project using HTML, CSS, JavaScript (frontend), Node.js (backend), MongoDB (database), and Bootstrap (technology)..."
-          projectLink="https://github.com/Nitinkushwaha19/Airbnb-clone"
+          Title="Portfolio Website"
+          Description="Discover my responsive portfolio website, crafted with React.js, HTML, CSS, JavaScript, and MUI icons, showcasing my work in a dynamic, user-friendly interface."
+          useTech="React js, Nodemailer, MUI, Tailwind css"
+          gitHubLink="https://github.com/Nitinkushwaha19/My-portfolio"
+          projectLink="https://my-portfolio-git-main-nitin-kushwahas-projects.vercel.app/"
+          projectImage={portfolio}
         />
         <ProjectCard
           Title="Spotify Clone"
           Description="Spotify clone: A frontend project meticulously crafted using pure HTML and CSS to replicate Spotify’s user interface..."
-          projectLink="https://github.com/Nitinkushwaha19/Spotify-Clone" 
+          gitHubLink="https://github.com/Nitinkushwaha19/Spotify-Clone" 
         />
       </div>
     </div>
