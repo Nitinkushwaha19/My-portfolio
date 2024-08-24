@@ -2,7 +2,7 @@ import ProjectCard from "./ProjectCard.jsx";
 import "./Projects.css";
 import portfolio from '../assets/portfolio.png'
 import newsapp from '../assets/newsapp.png'
-// import HavenHub from '../assets/Havenhub.png'
+import HavenHub from '../assets/Havenhub.png'
 
 export default function Projects() {
   return (
@@ -15,7 +15,7 @@ export default function Projects() {
           useTech="EJS, Node.js, Express.js, MongoDB, Bootstrap and Nodemailer"
           gitHubLink="https://github.com/Nitinkushwaha19/Rental-home"
           projectLink="https://rental-home-mm4m.onrender.com/"
-{/*           projectImage={HavenHub} */}
+          projectImage={HavenHub}
         />
         <ProjectCard
           Title="NewsApp Website"
