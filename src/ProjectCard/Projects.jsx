@@ -1,8 +1,8 @@
 import ProjectCard from "./ProjectCard.jsx";
 import "./Projects.css";
-import portfolio from '../assets/portfolio.png'
-import newsapp from '../assets/newsapp.png'
-import HavenHub from '../assets/Havenhub.png'
+import portfolio from '../assets/portfolio.png';
+import newsapp from '../assets/newsapp.png';
+import HavenHub from '../assets/Havenhub.png';
 
 export default function Projects() {
   return (
