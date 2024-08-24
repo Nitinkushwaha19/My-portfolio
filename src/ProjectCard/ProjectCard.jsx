@@ -4,7 +4,6 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea, CardActions } from "@mui/material";
 import "./ProjectCard.css";
-import { Padding } from "@mui/icons-material";
 
 export default function ProjectCard({ Title, Description , gitHubLink, projectLink, projectImage, useTech }) {
   return (
