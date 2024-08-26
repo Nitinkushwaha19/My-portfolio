@@ -3,6 +3,7 @@ import "./Projects.css";
 import portfolio from '../assets/portfolio.png'
 import newsapp from '../assets/newsapp.png'
 import HavenHub from '../assets/HavenHub.png'
+import chatApp from "../assets/chatApp.png";
 
 export default function Projects() {
   return (
@@ -16,6 +17,13 @@ export default function Projects() {
           gitHubLink="https://github.com/Nitinkushwaha19/Rental-home"
           projectLink="https://rental-home-mm4m.onrender.com/"
           projectImage={HavenHub}
+        />
+        <ProjectCard
+          Title="Chat App"
+          Description="Chat App: A real-time chatting application enabling instant communication...."
+          useTech="React.js, Node.js, Express.js, WebSockets, MUI, Authentication, and Authorization."
+          gitHubLink="https://github.com/Nitinkushwaha19/Chat-App" 
+          projectImage={chatApp}
         />
         <ProjectCard
           Title="NewsApp Website"
@@ -32,11 +40,7 @@ export default function Projects() {
           projectLink="https://my-portfolio-git-main-nitin-kushwahas-projects.vercel.app/"
           projectImage={portfolio}
         />
-        <ProjectCard
-          Title="Spotify Clone"
-          Description="Spotify clone: A frontend project meticulously crafted using pure HTML and CSS to replicate Spotify’s user interface..."
-          gitHubLink="https://github.com/Nitinkushwaha19/Spotify-Clone" 
-        />
+        
       </div>
     </div>
   );
