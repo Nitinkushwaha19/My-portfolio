@@ -17,7 +17,7 @@ export default function Projects() {
           Description="AI interview web app with voice input, resume upload, and personalized question generation using Vapi AI, Gemini AI, and a responsive UI with shadcn/ui."
           useTech="Next.js, TypeScript, Firebase, Vapi Ai, Gemini"
           gitHubLink="https://github.com/Nitinkushwaha19/PrepWise"
-          projectLink="https://my-portfolio-git-main-nitin-kushwahas-projects.vercel.app/"
+          projectLink="https://prep-wise-coral-psi.vercel.app/home"
           projectImage={prepwise}
         />
         
